@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.listitem {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background-color: transparent;
+  width: 40%;
+  height: fit-content;
+}
+
+.event-image {
+  height: 100px;
+  margin-bottom: 5px;
+  width: 150px;
+  border-radius: 3px;
+}
+
+.name {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 16px;
+  padding: 0px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.img-btn {
+  background-color: transparent;
+  border: 0px;
+  width: fit-content;
+  height: fit-content;
+  outline: none;
+  cursor: pointer;
+}
+
+.location {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px;
+}
